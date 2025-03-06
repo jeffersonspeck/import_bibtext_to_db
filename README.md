@@ -107,21 +107,39 @@ This file can be opened in Excel or any spreadsheet software for further analysi
 
 ## Example Console Output
 ```bash
-Database 'articles_db' already exists.
+Database 'articles_db' exists.
 Existing tables were successfully dropped.
 Tables created successfully.
-Importing file: references1.bib
-Importing file: references2.bib
-Total records: 1200
+Importing file: sample(3).bib
+Importing file: sample(4).bib
+Importing file: sample(5).bib
+Importing file: sample(2).bib
+Importing file: sample(1).bib
+Importing file: sample(6).bib
+Articles successfully inserted and linked with authors and journals.
+
+Total records: 3478
+
 Total articles by status:
-Accepted        850
-Duplicated      200
-Unclassified    150
+Status               Total Articles
+----------------------------------------
+Unclassified         2910
+Duplicated           568
 
 Document type and total articles (Excluding Duplicates):
-Journal Article          900
-Conference Paper        200
-Book Chapter           50
+Document Type                  Total Articles
+--------------------------------------------------
+                               2408
+ Article                       357
+ research-article              90
+ Article; Proceedings Paper    22
+ Proceedings Paper             19
+ Article; Early Access         4
+ Article; Retracted Publication  4
+ Editorial Material            2
+ Review                        2
+ Meeting Abstract              1
+ Article; Data Paper           1
 
 Excel file generated: articles_data.xlsx
 ```
